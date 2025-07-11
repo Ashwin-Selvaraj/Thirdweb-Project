@@ -9,6 +9,7 @@ const ContractDeployment = () => {
   const [initialSupply, setInitialSupply] = useState('');
   const [deployedAddress, setDeployedAddress] = useState('');
   const [deploymentStatus, setDeploymentStatus] = useState('');
+  
 
   const handleDeployToken = async () => {
     if (!contractName || !contractSymbol || !initialSupply) {
